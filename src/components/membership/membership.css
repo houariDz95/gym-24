@@ -1,0 +1,16 @@
+.membership_cards {
+    width: 100%;
+    display: flex;
+    gap: 56px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .membership_cards {
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,143 @@
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 250px;
+    margin-top: 150px;
+}
+
+.flex-1{
+    flex: 1;
+    height: 100%;
+}
+.desc{
+    width: 275px;
+    height: 68px;
+    flex-shrink: 0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.title {
+    width: 93px;
+    height: 19px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+.logo{
+    color: #FFF;
+    font-family: 'Bruno Ace SC', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo span {
+    color: var(--main-yellow);
+}
+
+.contact_p {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.contact_p span {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact_p span a img{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.social a {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social a img {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 528px) {
+    footer{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       margin-top: 100px;
+    }
+    .middle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .desc {
+        width: 174px;
+        height: 50px;
+        flex-shrink: 0;
+    }
+    .title{
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 928px) {
+    footer {
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+    .left{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1169px) {
+    footer {
+        padding: 30px;
+    }
+
+}

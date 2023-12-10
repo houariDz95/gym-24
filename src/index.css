@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto+Slab:wght@500&display=swap');
+
+:root {
+  --main-yellow: #FAFF00;
+ }
+ 
+body {
+  font-family: "Work Sans", sans-serif;
+  background: #000;
+  color: white;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+.heading_text {
+  color: #FFF;;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+li{
+  list-style: none;
+}
+
+.shadow_01 {
+  position: absolute;
+  top: 486px;
+  right: 0;
+  width: 1043px;
+  height: 791px;
+  flex-shrink: 0;
+  background: linear-gradient(91deg, #000 70.49%, rgba(0, 0, 0, 0.00) 90.96%);
+  z-index: -2;
+}
+
+.shadow_02 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 65%;
+  height: 791px;
+  flex-shrink: 0;
+  background: linear-gradient(91deg, #000 70.49%, rgba(0, 0, 0, 0.00) 90.96%);
+  z-index: -2;
+}
+
+@media screen and (max-width: 768px) {
+  .shadow_02 {
+    width: 50%;
+  }
+  .heading_text {
+    font-size: 28px;
+  }
+  
+}
+
+@media screen and (max-width: 1169px) {
+  .shadow_02 {
+    width: 50%;
+  }
+}
