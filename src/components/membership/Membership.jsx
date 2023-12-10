@@ -3,7 +3,7 @@ import MembershipCard from "../membership-card/MembershipCard"
 import './membership.css'
 const Membership = () => {
   return (
-    <section className="membership">
+    <section className="membership margin-y" id="membership">
       <h2 className="heading_text" style={{textAlign: 'center'}}>Gym membership</h2>
       <div className="membership_cards">
         {membership.map((item, index) => (

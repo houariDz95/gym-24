@@ -6,7 +6,7 @@ import youtube from '../../assets/icons/youtube.svg'
 
 const Trainers = () => {
   return (
-    <section className="trainers">
+    <section className="trainers margin-y" id="trainers">
       <h2 className="heading_text" style={{textAlign: 'center'}}>Trainers staff</h2>
       <div className="trainers_wrapper">
         {trainers.map((trainer, inex) => (

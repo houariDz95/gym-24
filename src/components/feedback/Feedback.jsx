@@ -3,7 +3,7 @@ import {reasons} from '../../constants'
 
 const Feedback = () => {
   return (
-    <section className="feedback">
+    <section className="feedback" id="advantages">
       <h2 className="heading_text">Reasons to join</h2>
       <div className="feedback_reasons">
         {reasons.map((item, i) => (

@@ -13,7 +13,7 @@ const Navbar = () => {
       </h4>
       <ul> 
         <li>
-          <a href='advantages'>
+          <a href='#advantages'>
             Advantages
           </a>
         </li>
@@ -39,7 +39,7 @@ const Navbar = () => {
       {menu && (
         <ul className='mobile_menu'> 
           <li>
-            <a href='advantages'>
+            <a href='#advantages'>
               Advantages
             </a>
           </li>

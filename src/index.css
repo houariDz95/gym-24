@@ -22,6 +22,10 @@ a{
   text-decoration: none;
 }
 
+.margin-y {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .heading_text {
   color: #FFF;;
   font-size: 48px;
