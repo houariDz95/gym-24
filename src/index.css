@@ -26,6 +26,7 @@ a{
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 .heading_text {
   color: #FFF;;
   font-size: 48px;
@@ -68,7 +69,10 @@ li{
   .heading_text {
     font-size: 28px;
   }
-  
+  .margin-y {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
 }
 
 @media screen and (max-width: 1169px) {

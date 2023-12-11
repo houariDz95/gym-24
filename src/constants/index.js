@@ -39,7 +39,7 @@ export const reasons = [
 
 export const membership = [
     {
-        title: "Pass ‘Trial’",
+        title: "‘Trial’",
         price: '$ 0',
         benefits: [
             "Access to the gym from 8:00 to 14:00",
@@ -47,7 +47,7 @@ export const membership = [
         ]
     },
     {
-        title: "Pass ‘Easy Start’ ",
+        title: "‘Easy Start’ ",
         price: '$ 119',
         benefits: [
             "Visit without restrictions 24/7",
@@ -57,7 +57,7 @@ export const membership = [
         ]
     },
     {
-        title: "Pass ‘Free Time’ ",
+        title: "‘Free Time’ ",
         price: '$ 49',
         benefits: [
             "The entrance time to the gym is from 14:00 to 16:00",
@@ -66,7 +66,7 @@ export const membership = [
         ]
     },
     {
-        title: "Pass ‘1 Month 24/7’ ",
+        title: "‘1 Month 24/7’ ",
         price: '$ 85',
         benefits: [
             "Visit without restrictions 24/7",
@@ -74,7 +74,7 @@ export const membership = [
         ]
     },
     {
-        title: "Pass ‘In Shape (AM)’ ",
+        title: "‘In Shape (AM)’ ",
         price: '$ 165',
         benefits: [
             "Training in mini-groups until 14:00",
@@ -84,7 +84,7 @@ export const membership = [
         ]
     },
     {
-        title: "Pass ‘In Shape (PM)’",
+        title: "‘In Shape (PM)’",
         price: '$ 195',
         benefits: [
             "Training in mini-groups until 17:00",

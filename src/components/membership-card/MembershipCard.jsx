@@ -5,7 +5,7 @@ const MembershipCard = ({title, price, benefits}) => {
   return (
     <div className='card'>
         <div className='top'>
-            <h4 className="title">{title}</h4>
+            <h4 className="card-title">pass {title}</h4>
             <span className="price">{price}</span>
         </div>
         <div className='bottom'>
